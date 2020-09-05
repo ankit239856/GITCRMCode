@@ -1,0 +1,9 @@
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage.Common\bin\Debug\CrmPackage.Common.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage.Common\bin\Debug\CrmPackage.Common.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage.Common\obj\Debug\CrmPackage.Common.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage.Common\obj\Debug\CrmPackage.Common.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage.Common\obj\Debug\CrmPackage.Common.csprojResolveAssemblyReference.cache
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage.Common\bin\Debug\CrmPackage.Common.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage.Common\bin\Debug\CrmPackage.Common.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage.Common\obj\Debug\CrmPackage.Common.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage.Common\obj\Debug\CrmPackage.Common.pdb

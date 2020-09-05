@@ -20,3 +20,17 @@ G:\CRM\GItCde\CRMPKG\WorkflowLibrary\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
 G:\CRM\GItCde\CRMPKG\WorkflowLibrary\obj\Debug\WorkflowLibrary.csprojResolveAssemblyReference.cache
 G:\CRM\GItCde\CRMPKG\WorkflowLibrary\obj\Debug\CrmPackage.WorkflowLibrary.dll
 G:\CRM\GItCde\CRMPKG\WorkflowLibrary\obj\Debug\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Debug\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Debug\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Debug\CrmPackage.WorkflowLibrary.dll.config
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.WorkflowLibrary.dll.config
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\obj\Debug\WorkflowLibrary.csprojResolveAssemblyReference.cache
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\obj\Debug\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\obj\Debug\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.WorkflowLibrary.dll.config
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\WorkflowLibrary\obj\Debug\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\WorkflowLibrary\obj\Debug\CrmPackage.WorkflowLibrary.pdb

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
-  <Solutions />
+  <Solutions>
+    <Solution Assembly="CrmPackage.Plugin.dll" Id="3449a9e5-5410-424a-9379-40b1428f1a6c" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to Create of account" FriendlyName="Create of account" Name="CrmPackage.Plugin.PostOperationaccountCreate" Id="1b164292-f743-442f-94b5-ed206e34779a" TypeName="CrmPackage.Plugin.PostOperationaccountCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Create of account" Description="Create of account" Id="91eb10a3-b6ef-ea11-a815-000d3a3e14c7" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="account" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
   <XamlWorkflows>
     <XamlWorkflowSolution Assembly="CrmPackage.WorkflowLibrary.dll" />
   </XamlWorkflows>

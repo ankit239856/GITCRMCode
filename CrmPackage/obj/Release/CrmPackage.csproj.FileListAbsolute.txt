@@ -1,0 +1,5 @@
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Release\CrmPackage.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Release\CrmPackage.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\obj\Release\CrmPackage.csprojResolveAssemblyReference.cache
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\obj\Release\CrmPackage.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\obj\Release\CrmPackage.pdb

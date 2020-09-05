@@ -1,0 +1,14 @@
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\CrmPackage.WorkflowLibrary.dll.config
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Xrm.Sdk.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Xrm.Sdk.Workflow.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Crm.Sdk.Proxy.xml
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Xrm.Sdk.xml
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Xrm.Sdk.Workflow.xml
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\obj\Release\CrmPackage.WorkflowLibrary.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\obj\Release\CrmPackage.WorkflowLibrary.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Xrm.Sdk.Deployment.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\bin\Release\Microsoft.Xrm.Sdk.Deployment.xml
+G:\CRM\GItCde\CRMBranch\GITCRMCode\WorkflowLibrary\obj\Release\WorkflowLibrary.csprojResolveAssemblyReference.cache

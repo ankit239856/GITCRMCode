@@ -20,3 +20,13 @@ G:\CRM\GItCde\CRMPKG\CrmPackage\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
 G:\CRM\GItCde\CRMPKG\CrmPackage\obj\Debug\CrmPackage.csprojResolveAssemblyReference.cache
 G:\CRM\GItCde\CRMPKG\CrmPackage\obj\Debug\CrmPackage.dll
 G:\CRM\GItCde\CRMPKG\CrmPackage\obj\Debug\CrmPackage.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\obj\Debug\CrmPackage.csprojResolveAssemblyReference.cache
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\obj\Debug\CrmPackage.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\CrmPackage\obj\Debug\CrmPackage.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\bin\Debug\CrmPackage.pdb
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\obj\Debug\CrmPackage.csprojResolveAssemblyReference.cache
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\obj\Debug\CrmPackage.dll
+G:\CRM\GItCde\CRMBranch\GITCRMCode\GITCRMCode\CrmPackage\obj\Debug\CrmPackage.pdb

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowLibrary", "WorkflowLibrary\WorkflowLibrary.csproj", "{717F66E5-BE19-45DA-9EE4-306DB6D5CC92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmPackage.Common", "CrmPackage.Common\CrmPackage.Common.csproj", "{57906401-47CD-422F-9388-9183C99770AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{717F66E5-BE19-45DA-9EE4-306DB6D5CC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{717F66E5-BE19-45DA-9EE4-306DB6D5CC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{717F66E5-BE19-45DA-9EE4-306DB6D5CC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57906401-47CD-422F-9388-9183C99770AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57906401-47CD-422F-9388-9183C99770AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57906401-47CD-422F-9388-9183C99770AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57906401-47CD-422F-9388-9183C99770AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

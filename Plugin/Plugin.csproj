@@ -11,10 +11,13 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CrmPackage.Plugin</RootNamespace>
     <AssemblyName>CrmPackage.Plugin</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <!--<TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>-->
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,9 +36,43 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>amsIndia.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.27\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.27\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.Workflow.9.0.2.27\lib\net462\Microsoft.Xrm.Sdk.Workflow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Workflow.Runtime" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,21 +80,41 @@
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="Microsoft.Xrm.Sdk">
-      <HintPath>$(SolutionDir)packages\Microsoft.CrmSdk.CoreAssemblies.8.0.2.1\lib\net45\Microsoft.Xrm.Sdk.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Crm.Sdk.Proxy">
-      <HintPath>$(SolutionDir)packages\Microsoft.CrmSdk.CoreAssemblies.8.0.2.1\lib\net45\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PostOperationaccountCreate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PluginBase.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="amsIndia.snk" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CrmPackage.Plugin.dll" />
+    <Content Include="bin\Debug\CrmPackage.Plugin.pdb" />
+    <Content Include="bin\Debug\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="bin\Debug\Microsoft.Crm.Sdk.Proxy.xml" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="bin\Debug\Microsoft.Xrm.Sdk.xml" />
+    <Content Include="bin\Release\CrmPackage.Plugin.dll" />
+    <Content Include="bin\Release\CrmPackage.Plugin.pdb" />
+    <Content Include="bin\Release\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="bin\Release\Microsoft.Crm.Sdk.Proxy.xml" />
+    <Content Include="bin\Release\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="bin\Release\Microsoft.Xrm.Sdk.Deployment.xml" />
+    <Content Include="bin\Release\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="bin\Release\Microsoft.Xrm.Sdk.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrmPackage.Common\CrmPackage.Common.csproj">
+      <Project>{57906401-47cd-422f-9388-9183c99770ad}</Project>
+      <Name>CrmPackage.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
